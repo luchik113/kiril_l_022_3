@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Мероприятия в Воронеже</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- Верхнее меню на всю ширину -->
+<header class="header">
+  <div class="header-container">
+    <div class="logo">Воронеж Events</div>
+    <nav class="nav">
+      <a href="index.html">Главная</a>
+      <a href="events.html">Мероприятия</a>
+      <a href="about.html">О сайте</a>
+      <a href="contacts.html">Контакты</a>
+    </nav>
+  </div>
+</header>
+
+<!-- Карусель на всю ширину -->
+<section class="carousel">
+  <div class="slides">
+    <img src="assets/img/event1.jpg" alt="Концерт в Воронеже">
+    <img src="assets/img/event2.jpg" alt="Выставка в Воронеже">
+    <img src="assets/img/event3.jpg" alt="Фестиваль в Воронеже">
+  </div>
+  <button class="prev">&#10094;</button>
+  <button class="next">&#10095;</button>
+  
+  <!-- Индикаторы -->
+  <div class="carousel-indicators">
+    <div class="indicator active" data-index="0"></div>
+    <div class="indicator" data-index="1"></div>
+    <div class="indicator" data-index="2"></div>
+  </div>
+</section>
+
+<!-- Список мероприятий -->
+<main class="content">
+  <h2>Актуальные события</h2>
+  <div class="cards">
+    <article class="card">
+      <img src="assets/img/event1-large.jpg" alt="Событие 1">
+      <h3>Концерт группы «Сплин»</h3>
+      <p>12 октября в ДК им. Кирова состоится большой концерт известной рок-группы.</p>
+      <a href="article1.html" class="btn">Подробнее</a>
+    </article>
+    <article class="card">
+      <img src="assets/img/event2-large.jpg" alt="Событие 2">
+      <h3>Выставка современного искусства</h3>
+      <p>В Воронежском музее стартует уникальная экспозиция художников ХХ–ХХI вв.</p>
+      <a href="article2.html" class="btn">Подробнее</a>
+    </article>
+    <article class="card">
+      <img src="assets/img/event3.jpg" alt="Событие 3">
+      <h3> Платоновского фестиваля искусств</h3>
+      <p>Что посмотреть на Платоновском фестивале - 2025 в Воронеже: опубликована программа</p>
+      <a href="article3.html" class="btn">Подробнее</a>
+    </article>
+  </div>
+</main>
+
+<footer class="footer">
+  <p>&copy; 2024 Воронеж Events. Все права защищены.</p>
+</footer>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
